@@ -19,7 +19,8 @@ pipeline{
         
         stage('Build WAR') {
             steps{
-                sh '''gradlew build'''
+            	 sh '''pwd'''
+                sh '''./gradlew build'''
             }
         }
         
