@@ -4,7 +4,7 @@ pipeline{
     
     environment {
         dockerImage = ''
-        registry = 'sibidock24/tomcat-helloworld
+        registry = 'sibidock24/tomcat-helloworld'
         registryCredential = 'docker-image1'
         
     }
