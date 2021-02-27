@@ -19,7 +19,7 @@ pipeline{
         
         stage('Build WAR') {
             steps{
-                sh gradlew build
+                sh '''gradlew build'''
             }
         }
         
