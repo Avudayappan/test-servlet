@@ -54,7 +54,7 @@ pipeline{
     stage('Docker Run') {
      steps{
          script {
-            dockerImage.run("-p 8096:8000 --rm --name tomcat-helloworld")
+            dockerImage.run("-p 9999:8080 --rm --name tomcat-helloworld")
          }
      }
     } 
